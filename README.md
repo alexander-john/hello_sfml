@@ -8,7 +8,7 @@ From the SFML website, https://www.sfml-dev.org/download/sfml/2.6.1/ download Wi
 ### CLion
 If you dont have CLion you can download it from https://www.jetbrains.com/clion/. I suggest making a "Projects" folder in your root folder so your project folders and libraries are easily accessible.
 
-## CMake
+### CMake
 You do not need to know CMake to understand how to edit the CMake configurations but if you are a beginner like me, it is worth it to go to https://cmake.org/cmake/help/latest/guide/tutorial/index.html just to learn a bit about it.
 
 # How to Run & Build
