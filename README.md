@@ -1,14 +1,17 @@
 # hello_sfml
-The purpose of this project is to document as well as share, how to setup SFML using CLion on Windows.
+The purpose of this project is to document (as well as share) how to setup SFML using CLion on Windows.
 
 # How to setup
-## Download
+1. Download SFML
 From the SFML website, https://www.sfml-dev.org/download/sfml/2.6.1/ download WinLibs MSVCRT 13.1.0 (32-bit) which is located in the small red box in the Windows section. Then download GCC 13.1.0 MinGW (DW2) - 32-bit. Once downloaded extract folder and copy it to your root C:/ folder.
-## CLion
+2. Download CLion
 Once added to the root C:/ folder, open CLion. If you dont have CLion you can download it from https://www.jetbrains.com/clion/. Go through the setup and create a C++ executable. I suggest making a "Projects" folder in the root C:/ folder 
 so your project folders and libraries are easily accessible. Once your project is loaded up in CLion, double click the CMakeLists.txt to add the following configurations.
+
 ## CMake
-You do not need to know CMake to understand how to edit the configurations but if you are a beginner like me it is worth it to go to https://cmake.org/cmake/help/latest/guide/tutorial/index.html just to learn a bit about it. With the CMakeLists.txt
+You do not need to know CMake to understand how to edit the configurations but if you are a beginner like me it is worth it to go to https://cmake.org/cmake/help/latest/guide/tutorial/index.html just to learn a bit about it. 
+
+With the CMakeLists.txt
 open copy and paste the following:
 ```cmake
 cmake_minimum_required(VERSION 3.26)
